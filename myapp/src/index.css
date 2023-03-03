@@ -230,7 +230,7 @@ ul{
   }
   .container-face{
     height: 45%;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
   .files ul{
     margin-top: 20px;
@@ -246,6 +246,9 @@ ul{
     width: 100%;
     margin-bottom: 3%;
     padding: 5px 3px;
+  }
+  .bottom{
+    height: auto;
   }
 }
 @media only screen and (max-width: 936px) {
@@ -279,7 +282,7 @@ ul{
   }
   .container-face{
     height: 40%;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   .image-container{
     width: 60%;
@@ -322,9 +325,8 @@ ul{
     background-color: white;
     text-align: end;
   }
-  .bottom hr{
-    margin-top: 2%;
-    margin-bottom: 2% ;
+  .bottom {
+    height: auto;
   }
   
 }
